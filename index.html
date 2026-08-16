@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Swarit Verma — Portfolio</title>
+<meta name="description" content="Swarit Verma — first-year CSE student at IIT Gandhinagar. Python, web dev, and competitive programming.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="bg-grid" aria-hidden="true"></div>
+
+<header class="nav" id="top">
+  <div class="wrap nav-inner">
+    <a href="#top" class="brand"><span class="brand-bracket">&lt;</span>SV<span class="brand-bracket">/&gt;</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HOME -->
+  <section id="home" class="section hero">
+    <div class="wrap">
+      <p class="eyebrow">// hello world</p>
+      <h1>Swarit Verma</h1>
+      <p class="role">1st Year, B.Tech CSE — IIT Gandhinagar</p>
+      <p class="intro">
+        I'm a first-year Computer Science student at IIT Gandhinagar, building my foundations in Python
+        while picking up web development one project at a time. I also solve problems on Codeforces to
+        sharpen my algorithmic thinking, and I'm looking to contribute to Metis, the Development Club.
+      </p>
+      <div class="cta-row">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="wrap">
+      <p class="eyebrow">01 / about</p>
+      <h2>Skills &amp; Tools</h2>
+      <p class="section-lede">Still early in the journey — here's what I'm working with right now.</p>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <span class="skill-tag">Python</span>
+          <p>Intermediate — comfortable with core syntax, data structures, and writing small scripts and tools.</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-tag">HTML &amp; CSS</span>
+          <p>Basics — building and styling static pages, layout with flexbox/grid.</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-tag">Python Libraries</span>
+          <p>Getting hands-on with the standard library and common third-party packages.</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-tag">Competitive Programming</span>
+          <p>Practicing problem solving on Codeforces to build stronger DSA fundamentals.</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-tag">Git &amp; GitHub</span>
+          <p>Version control basics — commits, repos, and hosting projects on GitHub Pages.</p>
+        </div>
+        <div class="skill-card skill-card-muted">
+          <span class="skill-tag">Currently Learning</span>
+          <p>JavaScript, and going deeper into web development beyond static pages.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="wrap">
+      <p class="eyebrow">02 / projects</p>
+      <h2>Projects</h2>
+      <p class="section-lede">A few things I've built so far.</p>
+
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-top">
+            <h3>Personal Portfolio Site</h3>
+            <span class="project-status status-live">Live</span>
+          </div>
+          <p class="project-desc">The site you're looking at right now — built from scratch to present my work, skills, and contact details in one place.</p>
+          <div class="tech-row">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Myst-SS/Myst-SS.github.io" target="_blank" rel="noopener">GitHub Repo →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <h3>Dept. of Earth Sciences Website</h3>
+            <span class="project-status status-live">Capstone</span>
+          </div>
+          <p class="project-desc">A full 7-page institutional website for IIT Gandhinagar's Earth Sciences department — with a searchable people directory, a lightbox photo gallery, and a scroll-driven "geological depth" HUD.</p>
+          <div class="tech-row">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Myst-SS/earth-sciences-site" target="_blank" rel="noopener">GitHub Repo →</a>
+            <a href="https://myst-ss.github.io/earth-sciences-site/" target="_blank" rel="noopener">Live Demo →</a>
+          </div>
+        </article>
+
+        <article class="project-card project-card-loading">
+          <div class="project-top">
+            <h3>New Project</h3>
+            <span class="project-status status-progress">
+              <span class="dot-pulse"></span> In Progress
+            </span>
+          </div>
+          <p class="project-desc">Something new is in the works — check back soon.</p>
+          <div class="skeleton-row">
+            <span class="skeleton-tag"></span>
+            <span class="skeleton-tag"></span>
+            <span class="skeleton-tag"></span>
+          </div>
+          <div class="project-links project-links-disabled">
+            <span>Coming soon…</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="wrap">
+      <p class="eyebrow">03 / contact</p>
+      <h2>Get in Touch</h2>
+      <p class="section-lede">Feel free to reach out — happy to connect.</p>
+
+      <div class="contact-grid">
+        <a class="contact-card" href="mailto:swarit.mailbox@iitgn.ac.in">
+          <span class="contact-icon" aria-hidden="true">✉</span>
+          <span class="contact-label">Email</span>
+          <span class="contact-value">swarit.mailbox@iitgn.ac.in</span>
+        </a>
+        <a class="contact-card" href="https://github.com/Myst-SS" target="_blank" rel="noopener">
+          <span class="contact-icon" aria-hidden="true">⌥</span>
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">github.com/Myst-SS</span>
+        </a>
+        <a class="contact-card" href="https://codeforces.com/profile/Myst_0" target="_blank" rel="noopener">
+          <span class="contact-icon" aria-hidden="true">◆</span>
+          <span class="contact-label">Codeforces</span>
+          <span class="contact-value">Myst_0</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p>Built by Swarit Verma · <span id="year"></span></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
